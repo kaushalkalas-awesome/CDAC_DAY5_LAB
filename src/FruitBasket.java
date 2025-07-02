@@ -182,6 +182,7 @@ public class FruitBasket {
 					if (!f.isFresh()) {
 						System.out.println((g++) + ". " + "\nTaste: " + f.taste());
 						System.out.println(f.toString());
+						System.out.println((g++) + ". " + "\n" + f.toString());
 						System.out.println("------------");
 						check_stale++;
 					}
